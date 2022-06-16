@@ -34,15 +34,15 @@ const cards = [
   {
     source: require("./assets/lover.png"),
   },
-  // {
-  //   source: require("./assets/pendu.png"),
-  // },
-  // {
-  //   source: require("./assets/tower.png"),
-  // },
-  // {
-  //   source: require("./assets/strength.png"),
-  // },
+  {
+    source: require("./assets/pendu.png"),
+  },
+  {
+    source: require("./assets/tower.png"),
+  },
+  {
+    source: require("./assets/strength.png"),
+  },
 ];
 
 const Tarots = () => {

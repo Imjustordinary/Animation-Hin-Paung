@@ -6,7 +6,8 @@ import BottomSheet from './src/BottomSheet/BottomSheet';
 import EachTartot from './src/Tarots/EachTartot';
 import Tarots from './src/Tarots/Tarots';
 import DarkAndLight from './src/SwipAndDelete/DarkAndLight';
-
+import GreatWeather from './src/LottiePractice/GreatWeather';
+import SkeletonContentScreen from './src/SkeletonContent/SkeletonContentScreen';
 
 export default function App() {
   
@@ -14,9 +15,10 @@ export default function App() {
     <>
     {/* <GrapAndMove /> */}
     {/* <BottomSheet /> */}
-    <Tarots />
+    {/* <GreatWeather /> */}
     {/* <DarkAndLight /> */}
-    {/* <ObjAni /> */}
+    <Tarots />
+    {/* <SkeletonContentScreen /> */}
     </>
   );
 }

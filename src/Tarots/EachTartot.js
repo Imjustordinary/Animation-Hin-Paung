@@ -118,6 +118,10 @@ const EachTartot = ({source, index, top, topChangeHandler, cardsLength, shuffleB
       if (v) {
         const duration = 150 * index;
         cardsLength.value = setCards.value;
+        translateY.value = withDelay(
+          duration,
+          withSpring(0)
+        );
         translateX.value = withDelay(
           duration,
           withSpring(0, {}, () => {
