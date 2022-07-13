@@ -1,2 +1,2 @@
 # Animation-Hin-Paung
-Reanimated practice
+Testing out flexibility and animation with Reanimated
